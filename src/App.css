@@ -1,0 +1,63 @@
+
+
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid blanchedalmond;
+  background-color: rgb(239, 249, 248);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-actions {
+  flex: 0 0 auto;
+}
+
+.user-actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
